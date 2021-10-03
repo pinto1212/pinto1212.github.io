@@ -20,10 +20,8 @@
 }
 
 .blog-txt {
-  grid-area:3/2/3/2;
+  grid-area: 3/2/3/2;
 }
-
-
 
 .page-grid {
   display: grid;

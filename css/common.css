@@ -27,7 +27,6 @@ body {
   font-size: 0.6em;
 }
 
-
 .main {
   padding: 5px 5px 5px 5px;
   background-color: #ffe1af;
@@ -49,12 +48,9 @@ a.button {
   transition: all 0.2s;
   color: white;
   text-align: center;
-
 }
 
 a.button:hover {
   color: #000000;
   background-color: #ffffff;
 }
-
-
