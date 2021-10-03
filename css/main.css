@@ -1,0 +1,16 @@
+@import "./common.css";
+
+.main-txt {
+    display: flex;
+    flex-direction: column;
+    grid-area: 1/2/1/2;
+  }
+
+
+  .page-grid {
+    display: grid;
+    grid-template-columns: 5% 1fr 10%;
+    grid-template-rows: 1fr;
+  }
+
+  

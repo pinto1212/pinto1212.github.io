@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 5vh;
+  padding-top: 1vh;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  padding-right: 3%;
+}
