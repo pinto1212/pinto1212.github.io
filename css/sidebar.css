@@ -15,9 +15,8 @@
 }
 
 .blog-menu {
-  display: grid;
-  grid-auto-rows: minmax(30vh, auto);
-  grid-gap: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .post {
@@ -27,16 +26,14 @@
   margin-bottom: 3px;
 }
 
-#post1 {
+#post1-image {
   background-image: url("../images/Tree.jpeg");
   background-size: cover;
-  height: 22vh;
 }
 
-#post2 {
+#post2-image {
   background-image: url("../images/graph.jpeg");
   background-size: cover;
-  height: 28vh;
 }
 
 a.button1 {

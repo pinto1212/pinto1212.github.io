@@ -1,4 +1,6 @@
 @import "./common.css";
+@import "./media.css";
+
 
 .page-title {
   font-size: 1.5rem;
@@ -6,11 +8,6 @@
   grid-area: 1/2/1/2;
 }
 
-.blog-menu {
-  display: grid;
-  grid-auto-rows: minmax(30vh, auto);
-  grid-gap: 15px;
-}
 
 .introduction {
   display: flex;
@@ -25,7 +22,7 @@
 
 .page-grid {
   display: grid;
-  grid-template-columns: 30vh 1fr 30vh;
+  grid-template-columns: 15vw 1fr 20vw;
   grid-auto-rows: minmax(15vh, auto);
 }
 
@@ -38,7 +35,7 @@
   grid-area: 2/3/2/3;
   border-radius: 10px;
   height: fit-content;
-  width: 30vh;
+  width: 20vw;
   flex-direction: row;
   align-items: center;
   background-color: white;
@@ -54,5 +51,5 @@
 }
 
 .blog-avatar {
-  width: 25%;
+  width: 15%;
 }
