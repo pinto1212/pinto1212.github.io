@@ -24,21 +24,18 @@
   margin-right: 10px;
   border-radius: 10px;
   margin-bottom: 3px;
+  width: 80%;
+  height: 10vh;
 }
 
-#post1-image {
-  background-image: url("../images/Tree.jpeg");
-  background-size: cover;
-}
-
-#post2-image {
-  background-image: url("../images/graph.jpeg");
-  background-size: cover;
+.img-post {
+  width: 95%;
+  height: fit-content;
 }
 
 a.button1 {
   border: 0.1em solid #ffffff;
   border-radius: 0.12em;
   font-weight: 300;
-  font-size: 0.7em;
+  font-size: 0.7rem;
 }
